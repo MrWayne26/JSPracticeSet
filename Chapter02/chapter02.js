@@ -12,3 +12,10 @@ else
 
 //Q2
 let SuperHero = prompt("Who's Your favorite Superhero")
+switch (SuperHero)
+{
+    case Batman:
+        console.log("Batman is my favorite Superhero as well")
+    case Joker:
+        console.log("The joker is not a superhero")
+}
